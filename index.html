@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>TODO LIST</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="todo-text">
+            <h1> Todo List </h1>
+        </div>
+        <form name="creater">
+            <label>
+                <input type="text" name="task" placeholder="Напишите что нужно напомнить">
+                <button>Add</button>
+            </label>
+        </form>
+        <hr>
+        <div class="container">
+            <img src="./img/nothing.jpeg" alt="image">
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">
+                        Что вы хотите изменить ?
+                    </div>
+                    <input required name="name" type="text" class="modal__input" />
+                    <button class="btn btn_dark btn_min">Изменить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
